@@ -1,0 +1,418 @@
+/* Stlying for the index page */
+.bgGray {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #212020;
+}
+
+.titleText {
+  color: white;
+  font-size: 4rem;
+}
+
+.textColorWhite {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.bgPink {
+  padding-bottom: 10%;
+  padding-top: 5%;
+  background-color: #cc1ddb;
+}
+
+.bgLightBlue {
+  padding-bottom: 10%;
+  padding-top: 5%;
+  background-color: #155de5;
+}
+
+.bgLimeGreen {
+  padding-bottom: 10%;
+  padding-top: 5%;
+  background-color: #08c71e;
+}
+
+.bgOrange {
+  padding-bottom: 10%;
+  padding-top: 5%;
+  background-color: #c95309;
+}
+
+.bgRed {
+  padding-bottom: 10%;
+  padding-top: 5%;
+  background-color: #c10606;
+}
+
+.bgPurple {
+  padding-bottom: 10%;
+  padding-top: 5%;
+  background-color: #810e9d;
+}
+
+.bgTeal {
+  padding-bottom: 10%;
+  padding-top: 5%;
+  background-color: #1c8d80;
+}
+
+.bgDarkBlue {
+  padding-bottom: 10%;
+  padding-top: 5%;
+  background-color: #272b98;
+}
+
+.bgBlack {
+  padding-bottom: 10%;
+  padding-top: 5%;
+  background-color: black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* ------------------------------------------------ */
+/* Say Hello CSS */
+
+.sayHelloPinkBg {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #cc1ddb;
+}
+
+.pinkTxt {
+  color: #cc1ddb;
+  font-size: 2rem;
+}
+
+.pinkInputField {
+  border-color: #cc1ddb;
+  border-style: solid;
+  color: #cc1ddb;
+  border-radius: 5px;
+  font-size: 2rem;
+  height: 10vh;
+  width: 30%;
+  outline: none;
+}
+
+.pinkBtn {
+  background-color: #cc1ddb !important;
+  border-color: #cc1ddb !important;
+  height: 10vh;
+  width: 30%;
+  font-size: 2rem !important;
+}
+
+/* ------------------------------------------------ */
+/* Add Two Numbers CSS */
+
+.addTwoNumbersBg {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #155de5;
+}
+
+.lightBlueSubHeaderTxt {
+  color: #155de5;
+  font-size: 2rem;
+}
+
+.lightBlueInputField {
+  border-color: #155de5;
+  border-style: solid;
+  color: #155de5;
+  border-radius: 5px;
+  font-size: 2.5rem;
+  width: 80%;
+}
+
+.lightBlueBtn {
+  background-color: #155de5 !important;
+  border-color: #155de5 !important;
+  height: 10vh;
+  width: 25%;
+  font-size: 2rem;
+}
+
+/* ------------------------------------------------ */
+/* Ask A Question CSS */
+
+.askAQuestionBg {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #08c71e;
+}
+
+.limeGreenSubHeaderTxt {
+  color: #08c71e;
+  font-size: 2rem;
+}
+
+.limeGreenInputField {
+  border-color: #08c71e !important;
+  border-style: solid;
+  color: #08c71e;
+  border-radius: 5px;
+  font-size: 2rem;
+  width: 85%;
+  outline: none;
+}
+
+/* The following code below helps for forms reuse it! */
+/* https://stackoverflow.com/questions/4309950/how-to-align-input-forms-in-html */
+.form {
+  display: table;
+}
+
+.p {
+  display: table-row;
+}
+
+.label {
+  display: table-cell;
+}
+
+.input {
+  display: table-cell;
+}
+
+.dropdownGreenMenu {
+  border-color: #08c71e !important;
+  border-style: solid;
+  border-radius: 5px;
+  outline: none;
+}
+
+.limeGreenBtn {
+  background-color: #08c71e !important;
+  border-color: #08c71e !important;
+  height: 10vh;
+  width: 25%;
+  font-size: 2rem;
+}
+
+/* ------------------------------------------------ */
+/* Greater Than Less Than CSS */
+
+.greaterThanLessThanBg {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #c95309;
+}
+
+.orangeSubHeaderTxt {
+  color: #c95309;
+  font-size: 2rem;
+}
+
+.orangeInputField {
+  border-color: #c95309;
+  border-style: solid;
+  outline: none;
+  color: #c95309;
+  border-radius: 5px;
+  font-size: 2.5rem;
+  width: 80%;
+}
+
+.orangeBtn {
+  background-color: #c95309 !important;
+  border-color: #c95309 !important;
+  height: 10vh;
+  width: 25%;
+  font-size: 2rem;
+}
+
+.btmMargin {
+  margin-bottom: 0%;
+}
+
+/* ------------------------------------------------ */
+/* Mad Libs CSS */
+
+.madLibsBg {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #c10606;
+}
+
+.redSubHeaderTxt {
+  color: #c10606;
+  font-size: 2rem;
+}
+
+.redInputField {
+  border-color: #c10606 !important;
+  border-style: solid;
+  color: #c10606;
+  border-radius: 5px;
+  font-size: 2rem;
+  width: 85%;
+  outline: none;
+}
+
+.redBtn {
+  background-color: #c10606 !important;
+  border-color: #c10606 !important;
+  height: 10vh;
+  width: 25%;
+  font-size: 2rem;
+}
+
+/* ------------------------------------------------ */
+/* Odd Or Even CSS */
+
+.oddOrEvenBg {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #810e9d;
+}
+
+.purpleSubHeaderTxt {
+  color: #810e9d;
+  font-size: 2rem;
+}
+
+.purpleInPutField {
+  border-color: #810e9d;
+  border-style: solid;
+  color: #810e9d;
+  border-radius: 5px;
+  font-size: 2rem;
+  height: 10vh;
+  width: 40%;
+  outline: none;
+}
+
+.purpleBtn {
+  background-color: #810e9d !important;
+  border-color: #810e9d !important;
+  height: 10vh;
+  width: 25%;
+  font-size: 2rem;
+}
+
+/* ------------------------------------------------ */
+/* Reverse It CSS */
+
+.reverseItBg {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #1c8d80;
+}
+
+.tealSubHeaderTxt {
+  color: #1c8d80;
+  font-size: 2rem;
+}
+
+.tealInputField {
+  border-color: #1c8d80;
+  border-style: solid;
+  color: #1c8d80;
+  border-radius: 5px;
+  font-size: 2rem;
+  height: 10vh;
+  width: 40%;
+  outline: none;
+}
+
+.tealBtn {
+  background-color: #1c8d80 !important;
+  border-color: #1c8d80 !important;
+  height: 10vh;
+  width: 25%;
+  font-size: 2rem;
+}
+
+/* ------------------------------------------------ */
+/* Student Directory CSS */
+
+.studentDirectoryBg {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #272b98;
+}
+
+.darkBlueSubHeaderTxt {
+  color: #272b98;
+  font-size: 2rem;
+}
+
+.darkBlueSubTxt {
+  color: #272b98;
+  font-size: 2rem;
+}
+
+.dropdownDarkBlueMenu {
+  border-color: #272b98 !important;
+  border-style: solid;
+  border-radius: 5px;
+  outline: none;
+}
+
+.darkBlueInputField {
+  border-color: #272b98;
+  border-style: solid;
+  color: #272b98;
+  border-radius: 5px;
+  font-size: 2rem;
+  height: 10vh;
+  width: 40%;
+  outline: none;
+}
+
+.smallDarkBlueBtn {
+  background-color: #272b98 !important;
+  border-color: #272b98 !important;
+  height: 10vh;
+  width: 20%;
+  font-size: 2rem;
+}
+
+.darkBlueBtn {
+  background-color: #272b98 !important;
+  border-color: #272b98 !important;
+  height: 15vh;
+  width: 25%;
+  font-size: 2rem;
+}
+
+/* ------------------------------------------------ */
+/* Restaurant Picker CSS */
+
+.restaurantPickerBg {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: black;
+}
+
+.blackSubHeaderTxt {
+  color: black;
+  font-size: 2rem;
+}
+
+.blackDropDownMenu {
+  border-color: black !important;
+  border-style: solid;
+  border-radius: 5px;
+  outline: none;
+}
+
+.blackBtn {
+  background-color: black !important;
+  border-color: black !important;
+  height: 10vh;
+  width: 25%;
+  font-size: 2rem;
+}
+
+/* ------------------------------------------------ */
+
+input {
+  text-align: center;
+}

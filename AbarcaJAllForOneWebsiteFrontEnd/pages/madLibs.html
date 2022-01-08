@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../css/styling.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <title>Mad Libs!</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-1 madLibsBg d-flex justify-content-center">
+        <a href="../index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="9vh" fill="white" class="bi bi-house-door-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z" />
+          </svg>
+        </a>
+      </div>
+      <div class="col-10 madLibsBg text-center">
+        <h1 class="titleText">Mad Libs!</h1>
+      </div>
+      <div class="col-1 madLibsBg"></div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center mt-4">
+        <p class="redSubHeaderTxt">Answer the following questions!</p>
+      </div>
+    </div>
+    <div class="row">
+      <!-- This row includes the form-->
+      <div class="col-1"></div>
+      <div class="col-9 mt-3">
+        <form class="form">
+          <p class="p">
+            <label class="label redSubHeaderTxt">1. Proper Name:</label>
+            <input class="redInputField input mx-4" id="properName1" type="text" />
+          </p>
+        </form>
+      </div>
+    </div><!-- This row includes the form -->
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-9 mt-3">
+        <form class="form">
+          <p class="p">
+            <label class="label redSubHeaderTxt">2. Adjective:</label>
+            <input class="redInputField input mx-4" id="adjective2" type="text" />
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-9 mt-3">
+        <form class="form">
+          <p class="p">
+            <label class="label redSubHeaderTxt">3. Famous Person:</label>
+            <input class="redInputField input mx-4" id="famousPerson3" type="text" />
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-9 mt-3">
+        <form class="form">
+          <p class="p">
+            <label class="label redSubHeaderTxt">4. Noun:</label>
+            <input class="redInputField input mx-4" id="noun4" type="text" />
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-9 mt-3">
+        <form class="form">
+          <p class="p">
+            <label class="label redSubHeaderTxt">5. Number:</label>
+            <input class="redInputField input mx-4" id="number5" type="number" />
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-9 mt-3">
+        <form class="form">
+          <p class="p">
+            <label class="label redSubHeaderTxt">6. Adjective:</label>
+            <input class="redInputField input mx-4" id="adjective6" type="text" />
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-9 mt-3">
+        <form class="form">
+          <p class="p">
+            <label class="label redSubHeaderTxt">7. Plant:</label>
+            <input class="redInputField input mx-4" id="plant7" type="text" />
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-9 mt-3">
+        <form class="form">
+          <p class="p">
+            <label class="label redSubHeaderTxt">8. Place:</label>
+            <input class="redInputField input mx-4" id="place8" type="text" />
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-9 mt-3">
+        <form class="form">
+          <p class="p">
+            <label class="label redSubHeaderTxt">9. Adverb:</label>
+            <input class="redInputField input mx-4" id="adverb9" type="text" />
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-9 mt-3">
+        <form class="form">
+          <p class="p">
+            <label class="label redSubHeaderTxt">10. Proper Name:</label>
+            <input class="redInputField input mx-4" id="properName10" type="text" />
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center mt-2">
+        <button type="button" class="btn btn-danger redBtn mt-4" id="submitBtn">Submit</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-10 mt-4">
+        <p class="redSubHeaderTxt" id="displayTxt">Welcome to the University of {ProperName1}. Our {Adjective2} campus
+          was founded by {FamousPerson3} and build in 1806. We begin at out {Noun4} building. This building houses
+          {Number5} classrooms. To your left, {Adjective6} dormitory is visible just beyond the {Plant7}. Our students
+          come from all over the {Place8} because we {Adverb9} accept anyone who applies. The tour ends here at
+          {ProperName10} hall which houses the Admissions Office, thank you for your time, and have a great rest of your
+          day!</p>
+      </div>
+      <div class="col-1"></div>
+    </div>
+  </div>
+  <!--End of the container!-->
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="../scripts/madLibs.js"></script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
